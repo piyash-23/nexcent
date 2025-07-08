@@ -1,5 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: "Inter", sans-serif;
+  max-width: 1440px;
+}
+/* primary styles */
+.btn-primary {
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-primary a {
+  text-decoration: none;
+  background: #4caf4f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+.primary-head {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 500;
+}
+.primary-para {
+  font-size: 16px;
+  color: #717171;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+header .navbar {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo img {
+  height: 20px;
+}
+nav ul li {
+  display: inline;
+  margin: 0px 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 8px 10px;
+  color: #18191f;
+}
+nav ul li a:hover {
+  border-bottom: 1px solid gray;
+}
+#login {
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#login a {
+  text-decoration: none;
+  background: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #4caf4f;
+}
+/* section 1 design */
+.section1 {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .s1in {
+  width: 1080px;
+  display: grid;
+  grid-template-columns: 60% 35%;
+  column-gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.s1left h3 {
+  font-size: 64px;
+  color: #4d4d4d;
+}
+.s1left h3 span {
+  color: #4caf4f;
+}
+.s1para {
+  margin-bottom: 40px;
+}
+.s1right {
+  display: flex;
+  justify-content: flex-end;
 }
